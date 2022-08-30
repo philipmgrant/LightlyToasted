@@ -1,0 +1,1 @@
+<toast><visual><binding template="ToastImageAndText04"><image id="1" src=""/><text id="1">Testing1</text><text id="2">Testing2</text><text id="3">Testing3</text><text placement="attribution">via test process</text></binding></visual></toast>

@@ -1,0 +1,1 @@
+<toast><visual><binding template="ToastImageAndText04"><image id="1" src="Z:\images\hero.png" alt="alternate text"/><text id="1">testing</text><text id="2">with image</text><text id="3">and some alt text</text></binding></visual></toast>

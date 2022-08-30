@@ -1,0 +1,9 @@
+|Header: TestHead
+|ButtonTarget1: https://1.example.com
+|ButtonLabel1: example1
+|ButtonTarget2: https://1.example.com
+|ButtonLabel2: example2
+|DismissButton
+Testing header
+and
+buttons
