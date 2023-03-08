@@ -6,9 +6,9 @@ All the below directives can be either specified per notification using [special
 |-------------------|-----------|-----------------------------------|-------------------------------------------------------------------|
 | `Header`            | String    | Any string | Header text which appears above the notification. Also useful as a grouping key: notifications with the same app ID and header will appear together as a ["conversation"](https://docs.microsoft.com/en-us/windows/apps/design/shell/tiles-and-notifications/toast-headers). |
 | `AttributionText`   | String    | Any string | An additional line of small text which appears at the bottom of the notification. |
-| `Scenario`          | String    | `reminder`, `alarm`, `urgent`, `incomingCall` | The "scenario" which should govern the notification's behaviour (but the effect is limited TODO link here). |
+| `Scenario`          | String    | `reminder`, `alarm`, `urgent`, `incomingCall` | The "scenario" which should govern the notification's behaviour ([but the effect is limited](directives_detail.md#scenario-and-duration)). |
 | `Duration`          | String    | `short`, `long` | The duration for the notification to remain on screen before minimising.  `short` (the default) and `long` correspond to about 5 and 25 seconds respectively.|
-| `ImageSource`       | String    | Valid local path or URL | The path or URL of a local or (if TODO link web image downloads are enabled) internet image file. |
+| `ImageSource`       | String    | Valid local path or URL | The path or URL of a local or ([if web image downloads are enabled](internet_images.md)) internet image file. |
 | `ImageAltText`      | String    | Any string | Alternate text for the image. |
 | `ImagePlacement`    | String    | `hero`, `below` | Instead of placing the image at the left of the notification, puts it above (`hero`) or below (`below`) the text. |
 | `ImageCrop`         | String    | `circle` | Crops the image into a circle.  Has no effect when `ImagePlacement` is specified. |

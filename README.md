@@ -34,6 +34,8 @@ LightlyToasted is a PowerShell-based background task that allows toast notificat
 
 * This can include scripts running on headless servers: have them write a file, sync it to your Windows machine using [Syncthing](https://syncthing.net/), OneDrive, Google Drive etc, and the notification pops onto your desktop.
 
+* On Android, use [Macrodroid](https://www.macrodroid.com/) to listen for events and write a text file, sync it across using [Syncthing](https://syncthing.net/), and you can get notifications on your desktop triggered by events on your phone.
+
 * If you're distributing an app where toast notifications would be useful, please feel free to provide an integration to LightlyToasted, and encourage your users to install it.
 
 * If you want to generate notifications from your own PowerShell app, then by all means you *can* use LightlyToasted – but it's worth taking a look at the richer PowerShell-native API provided in [BurntToast](https://github.com/Windos/BurntToast) by [Windos (Josh King)](https://github.com/Windos).  BurntToast is very easy to use from within a PowerShell script, and was super-useful to me in figuring out which DLLs were needed to get Windows to play ball.

@@ -43,7 +43,7 @@ In the default scheduled task created by `Setup.ps1`, the Action taken is:
 
 Note the use of `exit $LASTEXITCODE` so that error codes from LightlyToasted are reflected back in the task's status.
 
-Some aspects of the task are configurable through (TODO link) command-line options to `Setup.ps1`.  Also, once the task is created, you can freely edit it in Task Scheduler.
+Some aspects of the task are configurable through [command-line options](setup_detail.md) to `Setup.ps1`.  Also, once the task is created, you can freely edit it in Task Scheduler.
 
 The scheduled task created by `Setup.ps1` will run when you log on, and very briefly flash up a PowerShell window.  If that window annoys you, you can get rid of it by opening Task Scheduler, and setting "Run whether user is logged on or not" on the Task's "General" tab.  (`Setup.ps1` doesn't try to do this automatically since it's very difficult to reliably do programmatically without making assumptions about [security policy templates etc.](https://stackoverflow.com/a/70793765))
 
