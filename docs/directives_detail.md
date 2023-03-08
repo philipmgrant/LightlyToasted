@@ -1,6 +1,6 @@
 # Using directives
 
-## Header and AttributionText <!--anchorinuse-->
+## Header and AttributionText<!--anchorinuse-->
 
 The `Header` and `AttributionText` directives allow text to be rendered above and below the main body of the notification (so in total, you can get up to 5 lines of text: header, 3 lines of body text, and attribution).
 
@@ -10,7 +10,7 @@ The `Header` and `AttributionText` directives allow text to be rendered above an
 
 The header is also useful as a grouping key: notifications with the same app ID and header will appear together as a ["conversation"](https://docs.microsoft.com/en-us/windows/apps/design/shell/tiles-and-notifications/toast-headers).  This is particularly useful when there isn't a particular `SourceAppId` applicable to your script or app: you can let LightlyToasted default to using PowerShell's own app ID, and use headers to keep related notifications together.
 
-## Scenario and Duration <!--anchorinuse-->
+## Scenario and Duration<!--anchorinuse-->
 
 The `Duration` directive is quite straightforward: a value of `long` causes the notification to stay on screen for about 25 seconds before sliding back into the taskbar.  A value of `short` gives the same as the default behaviour (about 5 seconds).
 
