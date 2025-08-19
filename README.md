@@ -48,7 +48,7 @@ LightlyToasted is a PowerShell-based background task that allows toast notificat
 
 * At installation time, the user needs sufficient permissions to create a scheduled task.
 
-* If you're interested in forking or contributing to LightlyToasted (welcome), [Pester 5](https://pester.dev/) is needed to run the test suites.
+* If you're interested in forking, [Pester 5](https://pester.dev/) is needed to run the test suites.
 
 ## User manual
 
